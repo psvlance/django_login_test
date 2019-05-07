@@ -17,3 +17,5 @@ STATIC_ROOT = '/static'
 DEBUG = True
 
 ALLOWED_HOSTS.append('backend')
+
+SITE_ID = 3
