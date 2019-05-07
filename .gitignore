@@ -2,6 +2,5 @@ venv/
 *.pyc
 __pycache__/
 staticfiles/
-fixtures/
 .idea/
 static/

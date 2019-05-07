@@ -1,0 +1,66 @@
+[
+{
+  "model": "sites.site",
+  "pk": 2,
+  "fields": {
+    "domain": "localhost",
+    "name": "localhost"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 3,
+  "fields": {
+    "domain": "185.26.97.162",
+    "name": "185.26.97.162"
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "google",
+    "name": "google",
+    "client_id": "443761174682-g9rq3lsq8p0a3ve5u6g82hp323s8sdk2.apps.googleusercontent.com",
+    "secret": "VmIfH5HQl-Z12uuQOiChAd8b",
+    "key": "",
+    "sites": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 2,
+  "fields": {
+    "provider": "facebook",
+    "name": "facebook",
+    "client_id": "3229337387092597",
+    "secret": "87ee6a3bb96f5369d8aa9981411a296e",
+    "key": "",
+    "sites": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$3Bokg0bA3iFG$kse5Tv2egxA4huOt3TKgzrz6phRfnrJBtuSs+aM2gbQ=",
+    "last_login": "2019-05-06T10:57:34.697Z",
+    "is_superuser": true,
+    "username": "test",
+    "first_name": "",
+    "last_name": "",
+    "email": "test@localhost",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-05-06T09:50:50.972Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
